@@ -111,11 +111,43 @@
 		</svg> 
 		
 		<form>
+			<fieldset>
+			<legend>Car Selection:</legend>
+				
+				<textarea id="cs" name="cs" rows="3" cols="50">In this place, you can select your car after submitting your name.</textarea>
+				<br><br>
+	
   			<label for="fname">First name:</label><br>
   			<input type="text" id="fname" name="fname" value="Yichen"><br>
   			<label for="lname">Last name:</label><br>
   			<input type="text" id="lname" name="lname" value="Yang"><br><br>
   			<input type="submit" value="Submit">
+			<br><br>
+
+  			<label for="cars">Choose a car:</label>
+  			<select name="cars" id="cars">
+			<optgroup label="German Cars">
+			<option value="Volkswagen">Volkswagen</option>
+      		<option value="Mercedes">Mercedes</option>
+			<option value="BMW">BMW</option>
+      		<option value="Audi">Audi</option>
+    		</optgroup>
+
+			<optgroup label="Japanese Cars">
+     		<option value="Toyota">Toyota</option>
+      		<option value="Honda">Honda</option>
+			<option value="Nissan">Nissan</option>
+			<option value="Subaru">Subaru</option>
+    		</optgroup>
+				
+    		<optgroup label="American Cars">
+     		<option value="Ford">Ford</option>
+      		<option value="Chevy">Chevy</option>
+    		</optgroup>
+  			</select>
+			<br><br>
+  			<input type="submit" value="Submit">
+			</fieldset>
 		</form>
 		
 		<hr>
