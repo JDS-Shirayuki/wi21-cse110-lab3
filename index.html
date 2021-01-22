@@ -20,6 +20,14 @@
   				background-color: lightblue;    
   				text-align: center;
 			}
+			table, th, td {
+  				border: 1px solid black;
+  				border-collapse: collapse;
+			}
+			th, td {
+  				padding: 5px;
+  				text-align: left;
+			}
 		</style>
 	<head>
 		<meta charset="UTF-8">
@@ -164,6 +172,35 @@
 			<option value="Chevy">
   			</datalist>
   			<input type="submit" value="Submit">
+			
+			<h2>The Car Price Table</h2>
+			<table style="width:100%">
+			<caption>Car Prices</caption>
+  			<tr>
+    			<th>Brand</th>
+    			<th>Country</th> 
+    			<th>Price</th>
+			</tr>
+  			
+			<tr>
+    			<td>Toyota Camry</td>
+    			<td>Japan</td>
+    			<td>$ 25000</td>
+  			</tr>
+
+			<tr>
+    			<td>Audi A4</td>
+    			<td>Germany</td>
+    			<td>$ 39000</td>
+  			</tr>
+
+  			<tr>
+    			<td>Ford Focus</td>
+    			<td>U.S.</td>
+    			<td>$ 20000</td>
+  			</tr>
+			</table>
+
 			</fieldset>
 		</form>
 		
