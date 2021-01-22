@@ -204,7 +204,28 @@
     			<td>$ 20000</td>
   			</tr>
 			</table>
+				
+			<h2>The details of Toyota Camry</h2>
+			<details>
+  				<summary>Toyota Camry (XV70)</summary>
+  				<p>The Toyota Camry (XV70) is a mid-size car that has been produced by Toyota as the eighth-generation of the global Camry model, and introduced at the January 2017 North American International Auto Show.</p>
+			</details>
+				
+			<button type="button" onclick="tempFunc()">Click Me After Finishing this Section!</button>
 
+			<template>
+  			<h2>Toyota Camry (XV70)</h2>
+  			<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg", width="100%">
+			</template>
+
+			<script>
+			function tempFunc() {
+  				var temp1 = document.getElementsByTagName("template")[0];
+  				var temp2 = temp1.content.cloneNode(true);
+  				document.body.appendChild(temp2);
+			}
+			</script>
+				
 			</fieldset>
 		</form>
 		
