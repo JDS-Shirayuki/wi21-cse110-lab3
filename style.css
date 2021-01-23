@@ -25,28 +25,28 @@ h1 {
 p {
   font-size: 5mm;
   line-height: 2em;
-  margin: auto;
 }
 div {
   height: 100px;
   width: 500px;
-  font-size: 150%;
-  border: 3ch;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 80px;
-  margin-left: 80px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 50px;
-  padding-left: 50px;
 }
 table{
     position: fixed;
     min-width: 100%;
+    font-size: 150%;
+    border: 3ch;
+    margin: auto;
 }
 video{
     position: static;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 svg[width="100"] {
   background-color: blue;
@@ -77,8 +77,8 @@ div + p {
 p.myDiv {
   background-color: green;
 }
-@media only screen and (max-width:500px){
-    .myDiv{
-        background-color: yellow;
+@media only screen and (max-width:600px){
+    footer{
+        background-color: red;
     }
 }
