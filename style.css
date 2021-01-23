@@ -9,7 +9,33 @@ section * {
 }
 h1 {
   text-align: center;
+  font-size: 1.5cm;
   color: blue;
+  border-style: dotted;
+  border-color: green;
+  border-width: 3px;
+  border-radius: 1in;
+  margin: 80px 100px 80px 100px;
+  padding: 30px 50px 30px 50px;
+}
+p {
+  font-size: 5mm;
+  line-height: 2em;
+  margin: auto;
+}
+div {
+  height: 100px;
+  width: 500px;
+  font-size: 150%;
+  border: 3ch;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 svg[width="100"] {
   background-color: blue;
