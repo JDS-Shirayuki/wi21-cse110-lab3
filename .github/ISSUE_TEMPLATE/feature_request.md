@@ -1,20 +1,18 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Suggest to add a new feature for this project
 title: ''
-labels: ''
-assignees: ''
+labels: addfeature
+assignees: JDS-Shirayuki
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+You can use this template from the following perspectives:
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+1. Description of the existing problem.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+2. Description of your suggested solution.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+3. Description of any alternative solutions or features you've considered.
+
+4. Additional context about the feature request.
