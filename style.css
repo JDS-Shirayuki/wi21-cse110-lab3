@@ -11,8 +11,8 @@ h1 {
   text-align: center;
   color: blue;
 }
-p[target="The"] {
-  color: blue;
+input[type="text"] {
+  background-color: blue;
 }
 div:hover {
   background-color: blue;
