@@ -11,7 +11,7 @@ h1 {
   text-align: center;
   color: blue;
 }
-p[target="Content"] {
+p[target="The"] {
   color: blue;
 }
 div:hover {
