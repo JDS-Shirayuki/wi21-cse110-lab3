@@ -32,10 +32,6 @@ div {
 }
 table{
     position: fixed;
-    min-width: 100%;
-    font-size: 150%;
-    border: 3ch;
-    margin: auto;
 }
 video{
     position: static;
@@ -47,6 +43,10 @@ video{
     padding-bottom: 30px;
     padding-right: 50px;
     padding-left: 50px;
+    min-width: 100%;
+    font-size: 150%;
+    border: 3ch;
+    margin: auto;
 }
 svg[width="100"] {
   background-color: blue;
