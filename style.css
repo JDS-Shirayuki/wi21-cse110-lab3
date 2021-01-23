@@ -8,9 +8,10 @@ section * {
   background-color: green;
 }
 h1 {
-  text-align: center;
   font-size: 1.5cm;
   color: blue;
+  text-align:center;
+  text-decoration: underline;
   border-style: dotted;
   border-color: green;
   border-width: 3px;
