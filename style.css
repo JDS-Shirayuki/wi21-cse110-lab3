@@ -79,6 +79,6 @@ p.myDiv {
 }
 @media only screen and (max-width:600px){
     footer{
-        background-color: red;
+        color: red;
     }
 }
