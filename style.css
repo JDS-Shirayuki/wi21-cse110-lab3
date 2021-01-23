@@ -31,7 +31,7 @@ div {
   width: 500px;
 }
 table{
-    position: fixed;
+    position: relative;
 }
 video{
     position: static;
