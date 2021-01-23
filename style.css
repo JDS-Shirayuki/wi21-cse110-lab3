@@ -77,8 +77,8 @@ div + p {
 p.myDiv {
   background-color: green;
 }
-@media only screen and (max-width:500px){
-    .myDiv{
-        background-color: yellow;
+@media only screen and (max-width:600px){
+    footer{
+        background-color: red;
     }
 }
